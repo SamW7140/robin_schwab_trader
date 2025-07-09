@@ -10,24 +10,24 @@ A robust automated trading system that seamlessly integrates with multiple broke
 
 ## Key Features
 
-### 🏛️ **Multi-Brokerage Support**
+###  **Multi-Brokerage Support**
 - **Robinhood Integration**: Full API support with advanced order types
 - **Charles Schwab Integration**: Professional trading platform with institutional features
 - **Unified Interface**: Single codebase managing multiple brokerage accounts
 
-### 📊 **Advanced Order Management**
+###  **Advanced Order Management**
 - **Market & Limit Orders**: Complete order type support with intelligent execution
 - **Extended Hours Trading**: Pre-market and after-hours session support
 - **Smart Order Routing**: Automatic exchange selection and optimization
 - **Position Management**: Real-time portfolio tracking and risk assessment
 
-### 🛡️ **Enterprise Risk Controls**
+###  **Enterprise Risk Controls**
 - **Configurable Order Limits**: Maximum order value protection
 - **Dry Run Mode**: Safe testing environment for strategy validation
 - **Account Validation**: Pre-trade compliance and balance verification
 - **Timeout Management**: Automatic order cancellation for unfilled limit orders
 
-### 📈 **Comprehensive Reporting**
+###  **Comprehensive Reporting**
 - **Real-time Execution Logs**: Detailed trade execution monitoring
 - **Performance Analytics**: Success rates and execution quality metrics
 - **JSON Export**: Structured data for further analysis and backtesting
