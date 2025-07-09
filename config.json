@@ -1,0 +1,26 @@
+{
+    "robinhood": {
+        "username": "",
+        "password": "",
+        "mfa_code": null
+    },
+    "schwab": {
+        "app_key": "YOUR_SCHWAB_APP_KEY_HERE",
+        "app_secret": "YOUR_SCHWAB_APP_SECRET_HERE",
+        "redirect_uri": "https://127.0.0.1:8182",
+        "token_path": "./schwab_tokens.json",
+        "account_hash": "",
+        "account_name": "",
+        "accounts": {},
+        "default_account": "",
+        "account_by_ticker": {}
+    },
+    "trading": {
+        "dry_run": true,
+        "max_order_value": 10000.0,
+        "default_time_in_force": "DAY",
+        "results_dir": "trade_results",
+        "limit_order_timeout": 30,
+        "csv_log_file": "order_log.csv"
+    }
+}
