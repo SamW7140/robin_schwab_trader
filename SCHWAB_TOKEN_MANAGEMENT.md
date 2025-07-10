@@ -4,11 +4,11 @@
 
 The trading bot now includes **enhanced Schwab token management** that automatically handles token expiration and refresh to prevent authentication errors. This eliminates the "Exception while authenticating refresh token authentication" error by implementing:
 
-- ✅ **Automatic token expiration detection**
-- ✅ **Graceful fallback authentication when tokens expire**
-- ✅ **Proactive token refresh before expiration**
-- ✅ **Comprehensive error recovery for authentication issues**
-- ✅ **Token status monitoring and reporting**
+  **Automatic token expiration detection**
+  **Graceful fallback authentication when tokens expire**
+  **Proactive token refresh before expiration**
+  **Comprehensive error recovery for authentication issues**
+  **Token status monitoring and reporting**
 
 ## Key Features
 
@@ -93,14 +93,14 @@ python check_schwab_tokens.py
 
 Example output:
 ```
-✅ Token Status: VALID
-📅 Created: 2024-01-15T10:30:00
-⏰ Expires: 2024-01-22T10:30:00  
-📅 Age: 3.2 days
-⏰ Time until expiry: 98.5 hours
-✅ Needs refresh: NO
+ Token Status: VALID
+ Created: 2024-01-15T10:30:00
+ Expires: 2024-01-22T10:30:00  
+ Age: 3.2 days
+ Time until expiry: 98.5 hours
+ Needs refresh: NO
 
-💡 Recommendation: Token is healthy and fresh.
+ Recommendation: Token is healthy and fresh.
 ```
 
 ### Force Token Refresh
@@ -120,10 +120,10 @@ python trading_bot.py --dry-run sample_trades.csv
 - **Day 7**: Token expires (Schwab policy)
 
 ### Status Indicators
-- **🆕 Fresh** (0-2 days): Token is new and healthy
-- **📅 Valid** (2-5 days): Token is working normally  
-- **⚠️ Near Expiry** (5-7 days): Proactive refresh recommended
-- **❌ Expired** (7+ days): Re-authentication required
+- ** Fresh** (0-2 days): Token is new and healthy
+- ** Valid** (2-5 days): Token is working normally  
+- ** Near Expiry** (5-7 days): Proactive refresh recommended
+- ** Expired** (7+ days): Re-authentication required
 
 ## Troubleshooting
 

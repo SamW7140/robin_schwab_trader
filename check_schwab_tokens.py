@@ -56,19 +56,19 @@ def main():
             print(f"{refresh_emoji} Needs refresh: {'YES' if status['needs_refresh'] else 'NO'}")
         
         print()
-        print("💡 Recommendation:")
+        print(" Recommendation:")
         print(f"   {status.get('recommendation', 'Check configuration and try running the bot.')}")
         
         # Additional tips
         print()
-        print("📋 Tips:")
+        print(" Tips:")
         print("   • Schwab tokens expire every 7 days")
         print("   • The bot automatically refreshes tokens when they're 5+ days old")
         print("   • Run a dry-run trade to trigger token refresh: python trading_bot.py --dry-run sample_trades.csv")
         print("   • Check token status anytime with: python check_schwab_tokens.py")
         
     except Exception as e:
-        print(f"❌ Error checking token status: {e}")
+        print(f" Error checking token status: {e}")
         sys.exit(1)
 
 if __name__ == "__main__":
